@@ -8,8 +8,7 @@ export const CardFoto = (
     }) => {
     return(
         <Card
-        hoverable
-        style={{ width: 240 }} 
+        style={{ width: 240, height: 300 }} 
         cover={<img alt={imageDesc} src={imagePath} />}
       >
         <Card.Meta title={name} description={description} />
