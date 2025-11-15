@@ -8,7 +8,7 @@ export const CardFoto = (
     }) => {
     return(
         <Card
-        style={{ width: 240, height: 300 }} 
+        style={{ width: 340, height: 400 }} 
         cover={<img alt={imageDesc} src={imagePath} />}
       >
         <Card.Meta title={name} description={description} />
