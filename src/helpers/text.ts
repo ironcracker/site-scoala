@@ -1,0 +1,25 @@
+export const Ianuarie = 'Ianuarie';
+export const Februarie = 'Februarie';
+export const Martie = 'Martie';
+export const Aprilie = 'Aprilie';
+export const Mai = 'Mai';
+export const Iunie = 'Iunie';
+export const Iulie = 'Iulie';
+export const August = 'August';
+export const Septembrie = 'Septembrie';
+export const Octombrie = 'Octombrie';
+export const Noiembrie = 'Noiembrie';
+export const Decembrie = 'Decembrie';
+
+export const textIanuarie = 'Atitudinea este o alegere. Alege mereu una care te ridica, nu care te trage in jos.';
+export const textFebruarie = 'Nu poti controla tot ce ti se intampla, dar poti controla modul in care reactionezi.';
+export const textMartie = 'Zambeste in fata provocarilor - ele sint pasii spre crestere.';
+export const textAprilie = 'O atitudine pozitiva poate transforma o zi obisnuita intr-una extraordinara.';
+export const textMai = 'Gandurile tale devin realitatea ta. Alege sa gandesti frumos.';
+export const textIunie = 'Fii soarele din propria ta zi, chiar daca afara ploua.';
+export const textIulie = 'O minte optimista vede o oportunitate in fiecare dificultate.';
+export const textAugust = 'Fii recunoscator pentru micile lucruri - ele aduc marile bucurii.';
+export const textSeptembrie = 'Atitudinea este diferenta dintre o zi buna si una pierduta.';
+export const textOctombrie = 'Nu astepta ca lucrurile sa fie perfecte pentru a fi fericit. Fericirea ta le face perfecte.';
+export const textNoiembrie = 'Ceea ce conteaza nu este ceea ce se intampla cu tine ci felul in care alegi sa alegi ce se intampla.';
+export const textDecembrie = 'Fii tu inspiratia pe care o cauti. Totul incepe cu atitudinea ta.';

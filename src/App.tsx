@@ -25,12 +25,10 @@ function App() {
   const [current, setCurrent] = useState('home');
 
   return (
-    <>
     <div style={{height: '100vh', width: '100vw'}}>
     <TopMenu setCurrent={setCurrent}/>
     <RenderPage current={current}/>
     </div>
-    </>
   )
 }
 
