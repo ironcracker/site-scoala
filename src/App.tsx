@@ -6,10 +6,6 @@ import { Empty } from 'antd';
 import Home from './components/Home';
 import Map from './components/Map';
 
-
-function App() {
-  const [current, setCurrent] = useState('home');
-
   const RenderPage = ({current}:{current:string}) =>
   {
     switch(current)
@@ -24,6 +20,9 @@ function App() {
         return <Empty/>;
     }
   }
+
+function App() {
+  const [current, setCurrent] = useState('home');
 
   return (
     <>
