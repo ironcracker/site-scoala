@@ -45,11 +45,7 @@ const Map = () => {
             qualities: []
         },
         {
-            name: "Daria C.",
-            qualities: ["Bunătate", "Generozitate", "Empatie", "Răbdare", "Curaj", "Onestitate"]
-        },
-        {
-            name: "Nathalie C.",
+             name: "Nathalie C.",
             qualities: ["Noblețe", "Altruism", "Toleranță", "Hărnicie", "Apreciere", "Loialitate", "Integritate", "Empatie"]
         },
         {
@@ -89,6 +85,10 @@ const Map = () => {
             qualities: []
         },
         {
+            name: "Daria N.",
+            qualities: []
+        },
+        {
             name: "Razvan P.",
             qualities: []
         },
@@ -108,7 +108,8 @@ const Map = () => {
             name: "Mario S.",
             qualities: []
         },
-        { name: "Denis S.",
+        { 
+            name: "Denis S.",
             qualities: []
         },
     ];
