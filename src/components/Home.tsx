@@ -9,7 +9,8 @@ const Home = () => {
             justify="center" 
             style={{ 
                 minHeight: 'calc(100vh - 64px)', 
-                padding: '40px 20px' 
+                padding: '40px 20px', 
+                flexDirection: 'column'
             }}
         >
             <Card
@@ -44,7 +45,7 @@ const Home = () => {
                         }}
                     >
                         Bine ai venit pe site-ul oficial al clasei a VI-a B de la<br />
-                        <strong>Liceul Teoretic de Excelență "Dragomir Hurmuzescu"</strong><br />
+                        <strong>Liceul Tehnologic Energetic "Dragomir Hurmuzescu"</strong><br />
                         Deva
                     </Paragraph>
                 </Flex>

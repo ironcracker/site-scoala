@@ -45,7 +45,7 @@ const Map = () => {
             qualities: []
         },
         {
-             name: "Nathalie C.",
+            name: "Nathalie C.",
             qualities: ["Noblețe", "Altruism", "Toleranță", "Hărnicie", "Apreciere", "Loialitate", "Integritate", "Empatie"]
         },
         {

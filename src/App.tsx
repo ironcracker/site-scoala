@@ -31,10 +31,10 @@ function App() {
             <RenderPage current={current} />
             <footer 
                 style={{ 
-                    marginTop: '20px', 
+                    backgroundColor: '#001529', 
                     textAlign: 'center', 
-                    color: '#e7e7e7ff', 
-                    fontSize: '0.9rem' 
+                    padding: '10px 20px', 
+                    fontSize: '0.9rem',
                 }}
             >
                 Website realizat de Marius L. &copy; 2025
