@@ -1,4 +1,19 @@
+.nameMap {
+  position: relative;
+  padding-left: 8px;
+  line-height: 1.8;
+}
+
 .nameMap::first-letter {
-  font-size: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1890ff;
+}
+
+.nameMap::before {
+  content: "•";
+  position: absolute;
+  left: -8px;
+  color: #1890ff;
   font-weight: bold;
 }

@@ -1,43 +1,76 @@
-import { Flex } from "antd";
+import { Flex, Card, Typography } from "antd";
 import '../helpers/styles.css';
-const Map = () =>{
+
+const { Title, Text } = Typography;
+
+const StudentCard = ({ name, qualities }: { name: string; qualities: string[] }) => (
+    <Card
+        style={{
+            minWidth: '280px',
+            backgroundColor: 'rgba(255, 255, 255, 0.95)',
+            borderRadius: '12px',
+            boxShadow: '0 4px 16px rgba(0, 0, 0, 0.1)',
+            transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+        }}
+        hoverable
+        bordered={false}
+    >
+        <Flex vertical gap="middle">
+            <Title level={3} style={{ margin: 0, color: '#001d66', textAlign: 'center' }}>
+                {name}
+            </Title>
+            <Flex vertical gap="small">
+                {qualities.map((quality, index) => (
+                    <Text key={index} className="nameMap" style={{ fontSize: '1rem', color: '#595959' }}>
+                        {quality}
+                    </Text>
+                ))}
+            </Flex>
+        </Flex>
+    </Card>
+);
+
+const Map = () => {
+    const students = [
+        {
+            name: "Marius L.",
+            qualities: ["Modestie", "Ambitie", "Respect", "Inteligenta", "Umor", "Sinceritate"]
+        },
+        {
+            name: "Andrei K.",
+            qualities: ["Altruism", "Noblete", "Determinare", "Respect", "Entuziasm", "Inteligenta"]
+        },
+        {
+            name: "Andreea C.",
+            qualities: ["Acceptare", "Nadejde", "Daruire", "Rabdare", "Empatie", "Echilibru", "Ambitie"]
+        },
+    ];
+
     return (
-        <>
-         <Flex align="center" justify='center'>
-         <h1 style={{ margin:'20px', padding:'40px'}}>Codul numelor a clasei</h1>
-         </Flex>
-         <div style={{ backgroundColor: 'rgba(0,0,0,.5)', padding: '20px' }}>
-            <Flex vertical={false} gap={"large"} wrap>
-            <Flex vertical>
-                <p style={{fontSize:'35px'}}> Marius L.</p>
-                <p className='nameMap'>Modestie</p>
-                <p className='nameMap'>Ambitie</p>
-                <p className='nameMap'>Respect</p>
-                <p className='nameMap'>Inteligenta</p>
-                <p className='nameMap'>Umor</p>
-                <p className='nameMap'>Sinceritate</p>
+        <Flex vertical align="center" style={{ padding: '40px 20px', minHeight: 'calc(100vh - 64px)' }}>
+            <Title 
+                level={1} 
+                style={{ 
+                    color: 'white', 
+                    textAlign: 'center',
+                    marginBottom: '40px',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'
+                }}
+            >
+                Codul Numelor Clasei
+            </Title>
+            <Flex 
+                gap="large" 
+                wrap 
+                justify="center"
+                style={{ maxWidth: '1200px', width: '100%' }}
+            >
+                {students.map((student, index) => (
+                    <StudentCard key={index} name={student.name} qualities={student.qualities} />
+                ))}
             </Flex>
-            <Flex vertical>
-                <p style={{fontSize:'35px'}}> Andrei K.</p>
-                <p className='nameMap'>Altruism</p>
-                <p className='nameMap'>Noblete</p>
-                <p className='nameMap'>Determinare</p>
-                <p className='nameMap'>Respect</p>
-                <p className='nameMap'>Entuziasm</p>
-                <p className='nameMap'>Inteligenta</p>
-            </Flex>
-            <Flex vertical>
-                <p style={{fontSize:'35px'}}> Andreea C.</p>
-                <p className='nameMap'>Acceptare</p>
-                <p className='nameMap'>Nadejde</p>
-                <p className='nameMap'>Daruire</p>
-                <p className='nameMap'>Rabdare</p>
-                <p className='nameMap'>Empatie</p>
-                <p className='nameMap'>Echilibru</p>
-                <p className='nameMap'>Ambitie</p>
-            </Flex>
-            </Flex>
-         </div>
-        </>
-) }
+        </Flex>
+    );
+};
+
 export default Map;
