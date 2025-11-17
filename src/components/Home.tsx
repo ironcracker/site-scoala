@@ -49,7 +49,7 @@ const Home = () => {
                     </Paragraph>
                 </Flex>
             </Card>
-        </Flex>
+            </Flex>
     );
 };
 

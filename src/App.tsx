@@ -29,6 +29,16 @@ function App() {
         }}>
             <TopMenu setCurrent={setCurrent} />
             <RenderPage current={current} />
+            <footer 
+                style={{ 
+                    marginTop: '20px', 
+                    textAlign: 'center', 
+                    color: '#e7e7e7ff', 
+                    fontSize: '0.9rem' 
+                }}
+            >
+                Website realizat de Marius L. &copy; 2025
+            </footer>
         </div>
     );
 }
