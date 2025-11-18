@@ -34,15 +34,15 @@ const Map = () => {
     const students = [
         {
             name: "Alisia A.",
-            qualities:[]
+            qualities:["A","L","I","S","I","A" ]
         },
         {
             name: "Kevin B.",
-            qualities: []
+            qualities: ["Karismatic","Energic","Victorios","Inspirat","Nobil"]
         },
         {
             name: "Giulia C.",
-            qualities: []
+            qualities: ["G","I","U","L","I","A" ]
         },
         {
             name: "Nathalie C.",
@@ -50,7 +50,7 @@ const Map = () => {
         },
         {
             name: "Marius C.",
-            qualities: []
+            qualities: ["Modestie","Altruism","Responsabil","Ingenios","Umor","Sinceritate" ]
         },
         {
             name: "Andreea C.",
@@ -66,51 +66,51 @@ const Map = () => {
         },
         {
             name: "Andrei K.",
-            qualities: ["Altruism", "Noblețe", "Determinare", "Respect", "Entuziasm", "Inteligență"]
+            qualities: ["Altruism", "Noblețe", "Determinare", "Respectos", "Entuziasm", "Inteligență"]
         },
         {
             name: "Nicoleta L.",
-            qualities: []
+            qualities: ["N","I","C","O","L","E","T","A" ]
         },
         {
             name: "Marius L.",
-            qualities: ["Modestie", "Ambiție", "Respect", "Inteligență", "Umor", "Sinceritate"]
+            qualities: ["Modestie", "Ambiție", "Respect", "Inteligență", "Umanitate", "Simpatie"]
         },
         {
             name: "Vlad M.",
-            qualities: []
+            qualities: ["V","L","A","D"]
         },
         {
             name: "Adina M.",
-            qualities: []
+            qualities: ["A","D","I","N","A" ]
         },
         {
             name: "Daria N.",
-            qualities: []
+            qualities: ["D","A","R","I","A" ]
         },
         {
             name: "Razvan P.",
-            qualities: []
+            qualities: ["R","A","Z","V","A","N" ]
         },
         {
             name: "Sara S.",
-            qualities: []
+            qualities: ["Sinceră","Ambițioasă","Responsabilă","Atentă"]
         },
         {
             name: "Lorand S.",
-            qualities: []
+            qualities: ["Lider","Orientat spre oameni","Rafinament mental","Autentic","Nelimitat","Dedicat misiunii sale"]
         },
         {
             name: "Antonia S.",
-            qualities: []
+            qualities: ["A","N","T","O","N","I","A" ]
         },
         {
             name: "Mario S.",
-            qualities: []
+            qualities: ["M","A","R","I","O" ]
         },
         { 
             name: "Denis S.",
-            qualities: []
+            qualities: ["D","E","N","I","S" ]
         },
     ];
 
