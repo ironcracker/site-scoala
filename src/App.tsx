@@ -32,8 +32,8 @@ function App() {
             <footer 
                 style={{ 
                     backgroundColor: '#001529', 
-                    textAlign: 'center', 
-                    padding: '10px 20px', 
+                    textAlign: 'center',
+                    padding: '10px 20px',
                     fontSize: '0.9rem',
                 }}
             >

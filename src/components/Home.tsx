@@ -6,15 +6,16 @@ const Home = () => {
     return (
         <Flex 
             align="center" 
-            justify="center" 
+            justify="flex-start" 
             style={{ 
-                minHeight: 'calc(100vh - 64px)', 
-                padding: '40px 20px', 
+                minHeight: 'calc(100vh - 108px)', 
+                padding: '0px 20px', 
                 flexDirection: 'column'
             }}
         >
             <Card
                 style={{
+                    marginTop: '80px',
                     maxWidth: '900px',
                     width: '100%',
                     backgroundColor: 'rgba(255, 255, 255, 0.95)',
@@ -37,7 +38,7 @@ const Home = () => {
                     </Title>
                     <Paragraph 
                         style={{ 
-                            fontSize: '1.25rem', 
+                            fontSize: '1.5rem', 
                             textAlign: 'center',
                             color: '#434343',
                             lineHeight: '1.8',
