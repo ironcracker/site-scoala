@@ -46,7 +46,7 @@ const Home = () => {
                         }}
                     >
                         Bine ai venit pe site-ul oficial al clasei a VI-a B de la<br />
-                        <strong>Liceul Tehnologic Energetic "Dragomir Hurmuzescu"</strong><br />
+                        <strong style={{color:"#001d66"}}>Liceul Tehnologic Energetic "Dragomir Hurmuzescu"</strong><br />
                         Deva
                     </Paragraph>
                 </Flex>
