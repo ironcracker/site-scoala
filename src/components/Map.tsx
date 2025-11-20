@@ -34,7 +34,7 @@ const Map = () => {
     const students = [
         {
             name: "Alisia A.",
-            qualities:["A","L","I","S","I","A" ]
+            qualities:["Ambiție","Loialitate","Ingeniozitate","Seriozitate","Independență","Admirație" ]
         },
         {
             name: "Kevin B.",
@@ -42,7 +42,7 @@ const Map = () => {
         },
         {
             name: "Giulia C.",
-            qualities: ["G","I","U","L","I","A" ]
+            qualities: ["Generozitate","Inteligență","Unicitate","Loialitate","Inventivitate","Ambiție" ]
         },
         {
             name: "Nathalie C.",
@@ -70,7 +70,7 @@ const Map = () => {
         },
         {
             name: "Nicoleta L.",
-            qualities: ["N","I","C","O","L","E","T","A" ]
+            qualities: ["Naturală","Inteligentă","Cuminte","Optimistă","Loială","Energică","Talentată","Amabilă" ]
         },
         {
             name: "Marius L.",
@@ -78,7 +78,7 @@ const Map = () => {
         },
         {
             name: "Vlad M.",
-            qualities: ["V","L","A","D"]
+            qualities: ["Victorios","Lider","Amabil","Deștept"]
         },
         {
             name: "Adina M.",
@@ -86,11 +86,11 @@ const Map = () => {
         },
         {
             name: "Daria N.",
-            qualities: ["D","A","R","I","A" ]
+            qualities: ["Dragă","Amabilă","Recunoscătoare","Iubitoare","Ascultătoare" ]
         },
         {
             name: "Razvan P.",
-            qualities: ["R","A","Z","V","A","N" ]
+            qualities: ["Respectuos","Amabil","Zâmbitor","Valoros","Ambițios","Nobil"]
         },
         {
             name: "Sara S.",
@@ -106,11 +106,11 @@ const Map = () => {
         },
         {
             name: "Mario S.",
-            qualities: ["M","A","R","I","O" ]
+            qualities: ["Modest","Atent","Responsabil","Iubitor","Onest" ]
         },
         { 
             name: "Denis S.",
-            qualities: ["D","E","N","I","S" ]
+            qualities: ["Dăruitor","Energic","Nonșalant","Iubitor","Sincer" ]
         },
     ];
 

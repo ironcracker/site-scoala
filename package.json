@@ -1,7 +1,7 @@
 {
   "name": "site-scoala",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.7",
   "homepage": "https://ironcracker.github.io/site-scoala",
   "type": "module",
   "scripts": {
