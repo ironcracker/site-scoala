@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import TopMenu from './components/TopMenu';
-import Galerie from './components/Galerie';
+import Calendar from './components/Calendar';
 import { Empty } from 'antd';
 import Home from './components/Home';
 import Map from './components/Map';
@@ -9,10 +9,12 @@ const RenderPage = ({ current }: { current: string }) => {
     switch (current) {
         case 'home':
             return <Home />;
-        case 'gallery':
-            return <Galerie />;
+        case 'calendar':
+            return <Calendar />;
         case 'map':
             return <Map />;
+        case 'gallery':
+            return <Empty description="Galerie în curs de dezvoltare" />;
         default:
             return <Empty />;
     }

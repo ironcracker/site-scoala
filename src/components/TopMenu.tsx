@@ -1,6 +1,6 @@
 import { Flex, Menu } from "antd";
 import { Header } from "antd/es/layout/layout";
-import { HomeOutlined, CalendarOutlined, TeamOutlined } from '@ant-design/icons';
+import { HomeOutlined, CalendarOutlined, TeamOutlined, CameraOutlined } from '@ant-design/icons';
 
 const TopMenu = ({ setCurrent }: { setCurrent: React.Dispatch<React.SetStateAction<string>> }) => {
     return (
@@ -23,7 +23,7 @@ const TopMenu = ({ setCurrent }: { setCurrent: React.Dispatch<React.SetStateActi
                         },
                         {
                             label: 'Calendar Motivațional',
-                            key: 'gallery',
+                            key: 'calendar',
                             icon: <CalendarOutlined />,
                         },
                         {
@@ -31,6 +31,11 @@ const TopMenu = ({ setCurrent }: { setCurrent: React.Dispatch<React.SetStateActi
                             key: 'map',
                             icon: <TeamOutlined />,
                         },
+                        {
+                            label: 'Galerie',
+                            key: 'gallery',
+                            icon: <CameraOutlined/>,
+                        }
                     ]} 
                 />
             </Flex>
