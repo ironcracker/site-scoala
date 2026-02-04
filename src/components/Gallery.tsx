@@ -125,7 +125,11 @@ const Gallery = () => {
                     <Col key={photo.id} xs={24} sm={12} md={8} lg={6}>
                         <Card
                             hoverable
-                            cover={<img alt={photo.name} src={photo.imagePath} />}
+                            cover={<img alt={photo.name} src={photo.imagePath} style={{
+                                        width: '100%',
+                                        height: '200px',
+                                        objectFit: 'cover',
+                                    }}/>}
                             style={{ borderRadius: '8px', overflow: 'hidden' }}
                             onClick={() => handleCardClick(photo)}
                         >
