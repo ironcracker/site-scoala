@@ -3,7 +3,7 @@ import {CardFoto} from './CardFoto'
 import placeholder from '../assets/placeholder.png'
 import * as texte from '../helpers/text'
 
-const Galerie = () => {
+const Calendar = () => {
     return (
         <Flex align="center" justify='center' style={{gap: '20px', padding: '20px'}} wrap>
           <CardFoto name={texte.Ianuarie} description={texte.textIanuarie} imagePath={placeholder} /> 
@@ -20,4 +20,4 @@ const Galerie = () => {
           <CardFoto name={texte.Decembrie} description={texte.textDecembrie} imagePath={placeholder} /> 
         </Flex>
     )}
-export default Galerie;
+export default Calendar;

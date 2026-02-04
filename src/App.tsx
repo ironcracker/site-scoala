@@ -4,6 +4,7 @@ import Calendar from './components/Calendar';
 import { Empty } from 'antd';
 import Home from './components/Home';
 import Map from './components/Map';
+import Galerie from './components/Gallery';
 
 const RenderPage = ({ current }: { current: string }) => {
     switch (current) {
@@ -14,7 +15,7 @@ const RenderPage = ({ current }: { current: string }) => {
         case 'map':
             return <Map />;
         case 'gallery':
-            return <Empty description="Galerie în curs de dezvoltare" />;
+            return <Galerie/>;
         default:
             return <Empty />;
     }
