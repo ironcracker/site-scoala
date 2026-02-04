@@ -98,7 +98,7 @@ const Map = () => {
         },
         {
             name: "Antonia S.",
-            qualities: ["A","N","T","O","N","I","A" ]
+            qualities: ["Ambițioasă","Neînfricată","Talentată","Optimistă","Naturală","Inteligentă","Admirată" ]
         },
         {
             name: "Mario S.",
